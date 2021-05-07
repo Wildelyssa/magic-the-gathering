@@ -1,10 +1,40 @@
-# Getting Started with Create React App
+Magic: The Gathering Card Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose
+Random card generator built from the MTG API. Fetches cards from the MTG database, and displays them using their ImageUrl. Cards can them be searched by name using the search bar. 
 
-## Available Scripts
+### See live code here <https://wildelyssa.github.io/magic-the-gathering/> 
 
-In the project directory, you can run:
+## Tech used
+* React
+* CSS3
+* JS
+* Magic: The Gathering API
+
+## Features
+* Fetch up to 20 cards from the MTG database
+* Cards are random, refresh to get more cards
+* Filters out cards which don't have an ImageUrl
+* Loader for awaiting cards and data
+* Basic error messages for 'no cards found'
+* Type in the Search bar to find cards containing those values
+* Responsive design
+* Free MTG Wallpaper and Logo.png use in design
+
+## Improvements
+* Segment out Error as a separate component, and define conditional errors within that component to make the code in App.js leaner
+* Instead of having to refresh screen, add a "Generate Cards" button
+* Currently searches Legndary, and Creature cards: expand in the future
+* Add a selector to search cards by colour
+* Have a feature to save cards you are interested in
+* Possible future opensource project if there is enough interest
+
+If you have an idea for this project, or would like to contribute, please drop me a message. I am open to ideas and collaboration. 
+
+
+To run the project on your machine, please download the code, cd into the folder, and run **`npm start`** in terminal
+
+To run a production build, please run **`npm build`** in teminal
 
 ### `npm start`
 
@@ -68,3 +98,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
