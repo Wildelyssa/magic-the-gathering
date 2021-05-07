@@ -1,4 +1,4 @@
-Magic: The Gathering Card Finder
+# Magic: The Gathering Card Finder
 
 ## Purpose
 Random card generator built from the MTG API. Fetches cards from the MTG database, and displays them using their ImageUrl. Cards can them be searched by name using the search bar. 
