@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+html {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    height: 100vh;
+    margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background {
+    background-image: url("./images/magic-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+    background-image: url("./images/magic-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 30%;
+    height: 135px;
+    margin-top: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: rgba(1, 1, 1, 0.5);
+    border-radius: 0.5em;
+    border: ridge 2px grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 1030px) {
+    .logo {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .logo {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .logo {
+        width: 250px;
+        height: 100px;
+        margin-top: 2rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .logo {
+        height: 80px;
+        width: 200px;
+    }
+
+    .card-container {
+        margin: 1.5rem 0.5rem;
+    }
 }

@@ -1,0 +1,49 @@
+.search-container {
+    text-align: center;
+    margin-top: 2rem;
+    width: 40%;
+    padding: 2rem;
+}
+
+input:active {
+    border: solid 2px rgba(255, 68, 0);
+}
+
+input {
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 80%;
+    border: solid 2px grey;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1030px) {
+    .search-container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .search-container {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .search-container {
+       padding: 0;
+       width: 90%;
+       margin-top: 0.5rem;
+    }
+
+    input {
+        padding: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    input {
+        font-size: 1rem;
+    }
+}
