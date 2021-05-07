@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.472b08d1.chunk.css",
-    "main.js": "/static/js/main.e12ed736.chunk.js",
-    "main.js.map": "/static/js/main.e12ed736.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.efb5e0f1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.efb5e0f1.js.map",
-    "static/js/2.34b45b29.chunk.js": "/static/js/2.34b45b29.chunk.js",
-    "static/js/2.34b45b29.chunk.js.map": "/static/js/2.34b45b29.chunk.js.map",
-    "static/js/3.474270f2.chunk.js": "/static/js/3.474270f2.chunk.js",
-    "static/js/3.474270f2.chunk.js.map": "/static/js/3.474270f2.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.472b08d1.chunk.css.map": "/static/css/main.472b08d1.chunk.css.map",
-    "static/js/2.34b45b29.chunk.js.LICENSE.txt": "/static/js/2.34b45b29.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/magic-logo.49544a1f.png"
+    "main.css": "/magic-the-gathering/static/css/main.bf283647.chunk.css",
+    "main.js": "/magic-the-gathering/static/js/main.e12ed736.chunk.js",
+    "main.js.map": "/magic-the-gathering/static/js/main.e12ed736.chunk.js.map",
+    "runtime-main.js": "/magic-the-gathering/static/js/runtime-main.4ae3ad20.js",
+    "runtime-main.js.map": "/magic-the-gathering/static/js/runtime-main.4ae3ad20.js.map",
+    "static/js/2.34b45b29.chunk.js": "/magic-the-gathering/static/js/2.34b45b29.chunk.js",
+    "static/js/2.34b45b29.chunk.js.map": "/magic-the-gathering/static/js/2.34b45b29.chunk.js.map",
+    "static/js/3.474270f2.chunk.js": "/magic-the-gathering/static/js/3.474270f2.chunk.js",
+    "static/js/3.474270f2.chunk.js.map": "/magic-the-gathering/static/js/3.474270f2.chunk.js.map",
+    "index.html": "/magic-the-gathering/index.html",
+    "static/css/main.bf283647.chunk.css.map": "/magic-the-gathering/static/css/main.bf283647.chunk.css.map",
+    "static/js/2.34b45b29.chunk.js.LICENSE.txt": "/magic-the-gathering/static/js/2.34b45b29.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/magic-the-gathering/static/media/magic-logo.49544a1f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.efb5e0f1.js",
+    "static/js/runtime-main.4ae3ad20.js",
     "static/js/2.34b45b29.chunk.js",
-    "static/css/main.472b08d1.chunk.css",
+    "static/css/main.bf283647.chunk.css",
     "static/js/main.e12ed736.chunk.js"
   ]
 }
