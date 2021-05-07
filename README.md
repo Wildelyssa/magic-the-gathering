@@ -24,7 +24,7 @@ Random card generator built from the MTG API. Fetches cards from the MTG databas
 ## Improvements
 * Segment out Error as a separate component, and define conditional errors within that component to make the code in App.js leaner
 * Instead of having to refresh screen, add a "Generate Cards" button
-* Currently searches Legndary, and Creature cards: expand in the future
+* Currently searches Legendary, and Creature cards: expand in the future
 * Add a selector to search cards by colour
 * Have a feature to save cards you are interested in
 * Possible future opensource project if there is enough interest
