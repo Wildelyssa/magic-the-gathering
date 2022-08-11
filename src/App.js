@@ -38,6 +38,7 @@ const App = () => {
   const filteredCards = cardsArray.filter(item => item.name.toLowerCase().includes(search.toLowerCase()));
   const noCards = (filteredCards.length === 0);
   
+  // This is Alex's code
   return (
     <div className='background'>
       <div className='logo' />
